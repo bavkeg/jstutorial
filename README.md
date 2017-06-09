@@ -1,1 +1,4 @@
-An open JavaScript tutorial book, focusing on client devices, written in Chinese.
+Nodejs tutorial book
+
+[http://javascript.ruanyifeng.com/nodejs/](http://javascript.ruanyifeng.com/nodejs/)
+
