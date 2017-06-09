@@ -168,13 +168,13 @@ myEmitter.emit('message', 'welcome to nodejs');
 
 下面代码指定，一旦服务器连通，只调用一次的回调函数。
 
-{% highlight javascript %}
+```js
 
 server.once('connection', function (stream) {
   console.log('Ah, we have our first user!');
 });
 
-{% endhighlight %}
+```
 
 该方法返回一个EventEmitter对象，因此可以链式加载监听函数。
 
@@ -244,11 +244,11 @@ emitter.removeAllListeners("firstConnection");
 
 如果不带参数，则表示移除所有事件的所有回调函数。
 
-{% highlight javascript %}
+```js
 
 emitter.removeAllListeners();
 
-{% endhighlight %}
+```
 
 ### listeners()
 
